@@ -37,6 +37,11 @@ public class Calculator {
         float c=a/b;
         System.out.println("The quotient of " + a+ " and " + b+ " is:" +c );
     }
+    public void square(float a)
+    {
+        float c=a*a;
+        System.out.println("The area of the square is:" +c);
+    }
 
 
     public static void main(String[] args)
@@ -46,6 +51,6 @@ public class Calculator {
         c.sub(3,2);
         c.prod(3,2);
         c.div(3,2);
-
+        c.square(3);
     }
 }
