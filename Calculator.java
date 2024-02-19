@@ -37,10 +37,27 @@ public class Calculator {
         float c=a/b;
         System.out.println("The quotient of " + a+ " and " + b+ " is:" +c );
     }
+    /**
+     * The function calculates the area of a square given the length of its side.
+     * 
+     * @param a The parameter "a" represents the length of one side of the square.
+     */
     public void square(float a)
     {
         float c=a*a;
         System.out.println("The area of the square is:" +c);
+    }
+
+   /**
+    * The `cube` function calculates the cube of a given number and prints the result.
+    * 
+    * @param a The parameter `a` in the `cube` method represents the number for which you want to
+    * calculate the cube.
+    */
+    public void cube(int a)
+    {
+        int c=a*a*a;
+        System.out.println("The cube of the number is:" +c);
     }
 
 
@@ -52,5 +69,6 @@ public class Calculator {
         c.prod(3,2);
         c.div(3,2);
         c.square(3);
+        c.cube(3);
     }
 }
